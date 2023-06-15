@@ -3,7 +3,7 @@ namespace SpacePersonajes
 
     class Personajes
     {
-        public static string[] listaDeNombres={"Charizard", "Bulbasaur","Squirtle", "Raichu"};
+        private string[] listaDeNombres = { "Charizard", "Bulbasaur", "Squirtle", "Raichu" };
         private tipos tipo;
         private string? nombre;
         private int velocidad;
@@ -21,6 +21,7 @@ namespace SpacePersonajes
         public int Ataque { get => ataque; set => ataque = value; }
         public int Defensa { get => defensa; set => defensa = value; }
         public int Hp { get => hp; set => hp = value; }
+        public string[] ListaDeNombres { get => listaDeNombres;}
 
         public Personajes()
         {

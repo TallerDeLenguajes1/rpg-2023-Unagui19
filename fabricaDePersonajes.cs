@@ -5,12 +5,12 @@ namespace EspacioFabrica
     class fabricaDePersonajes
     {
         // int limite=500;
-        Personajes player=new Personajes();
+        // Personajes player=new Personajes();
 
         public void datos(Personajes player)
         {   
             int nomAux=new Random().Next(0,3);
-            player.Nombre=Personajes.listaDeNombres[nomAux];
+            player.Nombre=player.ListaDeNombres[nomAux];
             switch (nomAux)
             {
                 case 0: player.Tipo=tipos.fuego;
