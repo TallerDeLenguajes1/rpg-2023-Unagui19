@@ -1,2 +1,6 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using EspacioFabrica;
+
+var p1 = new fabricaDePersonajes();
+
+fabricaDePersonajes.mostrar(p1);
+
